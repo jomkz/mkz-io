@@ -120,8 +120,3 @@ hrefTargetBlank = true
 lang = "en"
 languageName = "English"
 weight = 1
-
-[params]
-  authorimage = "img/john.jpg"
-  description = "established in 1978"
-  themeColor = "theme-base-00"
