@@ -1,8 +1,8 @@
 # About Widget config
 [about]
 title = ""                            # default: .Site.Title
-description = "established in 1978"         # default: .Site.Params.info.description
-logo = "/img/john.png"                # default: "/images/logo.png"
+description = "established in 1978"   # default: .Site.Params.info.description
+logo = "/images/logo.png"             # default: "/images/logo.png"
 
 # Recent Posts Widget config
 [recent_posts]
