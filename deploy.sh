@@ -7,6 +7,7 @@ hugo -t minimo
 
 # Add generated content
 cd public
+git submodule update --remote --rebase
 git add .
 
 # Commit changes
