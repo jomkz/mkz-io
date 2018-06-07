@@ -29,6 +29,9 @@ customCSS = ["css/custom.css"]
 customJS = ["js/custom.js"]
 gopher = "" # used in 404 template ( Generator: https://gopherize.me )
 
+[params.comments]
+enable = true
+
 [params.copyright]
 prefix = "Copyright"
 holder = "John McKenzie"
