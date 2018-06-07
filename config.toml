@@ -1,0 +1,127 @@
+baseURL = "https://mkz.io"
+languageCode = "en-us"
+title = "John McKenzie"
+theme = "minimo"
+
+disqusShortname = "mkz-io"
+googleAnalytics = "UA-30339019-3"
+
+Paginate = 5
+preserveTaxonomyNames = true
+
+enableRobotsTXT = true # generate robots.txt
+
+# Syntax Highlighting ( https://gohugo.io/content-management/syntax-highlighting/ )
+pygmentsCodefences = true
+
+enableEmoji = true
+
+# Missing translations will default to this content language
+defaultContentLanguage = "en"
+
+[params.info]
+description = "Thoughts on life, technology, motorcycles and everything between..."
+title404 = "Nothing's here!"
+
+[params.assets]
+favicon = "favicon.ico"
+customCSS = ["css/custom.css"]
+customJS = ["js/custom.js"]
+gopher = "" # used in 404 template ( Generator: https://gopherize.me )
+
+[params.copyright]
+prefix = "Copyright"
+holder = "John McKenzie"
+startYear = "1978"
+suffix = ""
+
+[params.settings]
+# date & time format: https://golang.org/pkg/time/
+dateFormat = "Jan 02, 2006"
+listDateFormat = "Jan 02, 2006"
+archiveDateFormat = "Jan 02"
+hideEntryNavigation = ["page"] # boolean / array of sections
+showReadingTime = true
+taxonomyCloudShuffle = true
+accentColor = "#0F80FF"
+hideMainMenu = false
+
+[params.sidebar]
+enable = true
+
+[params.widgets]
+homepage = ["recent_posts"]
+sidebar = ["about","sidebar_menu","taxonomy_cloud"]
+footer = ["social_menu"]
+
+[params.opengraph.facebook]
+admins = [] # array of Facebook IDs
+appID = ""
+pageID = ""
+
+[params.opengraph.twitter]
+page = "" # Twitter page username
+
+[params.seo]
+# Title Separator: - – — · • * ⋆ | ~ « » < >
+titleSeparator = "•"
+
+[params.social]
+#codepen = "jmckind"
+#email = "jmckind@gmail.com"
+facebook = "jmckind"
+github = "jmckind"
+#gitlab = "jmckind"
+instagram = "jmckind"
+linkedin = "jmckind"
+twitter = "jmckind"
+#telegram = "jmckind"
+#google_scholar = "qc6CJjYAAAAJ"
+
+[taxonomies]
+author = "authors"
+category = "categories"
+series = "series"
+tag = "tags"
+
+[permalinks]
+page = "/:slug/"
+
+[[menu.main]]
+name = "Home"
+weight = 10
+identifier = "index"
+url = "/"
+
+[[menu.main]]
+name = "Moto"
+weight = 20
+identifier = "moto"
+url = "/moto"
+
+[[menu.main]]
+name = "Tech"
+weight = 30
+identifier = "tech"
+url = "/tech"
+
+[[menu.main]]
+name = "About"
+weight = 40
+identifier = "about"
+url = "/about"
+
+[blackfriday]
+hrefTargetBlank = true
+
+[languages]
+# edit this block for your own language
+[languages.en]
+lang = "en"
+languageName = "English"
+weight = 1
+
+[params]
+  authorimage = "img/john.jpg"
+  description = "established in 1978"
+  themeColor = "theme-base-00"
