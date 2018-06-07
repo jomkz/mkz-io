@@ -1,6 +1,8 @@
 ---
-title: "Hello World"
+categories:
+- Miscellaneous
 date: 2008-06-06T15:56:50-07:00
+title: "Hello World"
 ---
 
 I should probably do something here...
